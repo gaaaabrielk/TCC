@@ -6,23 +6,34 @@
 
 
     <CalendarView
+        android:id="@+id/verCalendario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
 
     <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
 
+        <EditText
+            android:id="@+id/addEvento"
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:hint="Escreva Aqui"
+            />
+
+
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/salvar"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:backgroundTint="@color/white"
             android:text="Salvar"
-            android:textColor="@color/black"/>
-
+            android:textColor="@color/black"
+             />
 
 
     </LinearLayout>
